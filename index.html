@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mac Care</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- bst css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl/owl.theme.default.css">
+  
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Permanent+Marker&family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Krona+One&family=Zilla+Slab&display=swap" rel="stylesheet">
+
+  <style>
+    .carousel-inner img {
+      width: 100%;
+      height: 500px;
+    }
+    .dct{
+      background-color: #E5E5E5;
+    }
+    .mac{
+      font-family: 'Permanent Marker', cursive;
+    }
+    .macc{
+      font-size: 150px;
+    }
+    .cp{
+      font-family: 'Patrick Hand', cursive;
+    }
+    .whtap:hover{
+      color: #10c600;
+      transition: 0.7s;
+    }
+    .fb:hover{
+      color: #0024ff;
+      transition: 0.7s;
+    }
+    .tw:hover{
+      color: #03afe3;
+      transition: 0.7s;
+    }
+    .at:hover{
+      color: #ec3000;
+      transition: 0.7s;
+    }
+    .in:hover{
+      color: #ff000f;
+      transition: 0.7s;
+    }
+    .phn:hover{
+      color: #00d81e;
+      transition: 0.7s;
+    }
+    .bg{
+      background: linear-gradient(to bottom, #FFF000 0%, rgba(225,225,225, 0.25) 100%); 
+    }
+    .bg:hover{
+      background: linear-gradient(to bottom, rgba(225,225,225, 0.25) 0%, rgba(230,235,0, 0.4) 100%);
+      transition: 0.7s;
+    }
+    .bg-1{
+      background: linear-gradient(to bottom, #7dc45b 0%, rgba(225,225,225, 0.25) 100%); 
+    }
+    .bg-1:hover{
+      background: linear-gradient(to bottom, rgba(225,225,225, 0.25) 0%, rgba(200,133,250, 0.4) 100%); 
+    }
+    .who:hover{
+      color: #b400ff;
+      cursor: pointer;
+    }
+    .cap{
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    #scrollUp{
+        background-image: url("js/scrl/top.png");
+        bottom: 20px;
+        right: 20px;
+        width: 38px;    /* Width of image */
+        height: 38px;   /* Height of image */
+    }
+    #add{
+      background-image: url('dct/bg.jpg');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-attachment: scroll;
+    }
+    .wh-div{
+      background-color: rgba( 0, 123, 235, 0.5);
+      border: 7px double #fe5a04;
+    }
+    .wh-1{
+      cursor: pointer;
+      font-family: 'Permanent Marker', cursive;
+    }
+    .wh-2{
+      line-height: 29px;
+      word-spacing: 1px;
+      letter-spacing: 1px;
+      font-family: 'Dancing Script', cursive;
+      cursor: pointer;
+    }
+    .awd-h3{
+      font-family: 'Sansita Swashed', cursive;
+    }
+    .smpc{
+      font-size: 17px;
+      font-variant: small-caps;
+      font-family: 'Source Code Pro', monospace;
+    }
+
+  /* Specialist Doctors section css */
+  table{
+    width: 100%;
+    margin-bottom: 500px;
+  }
+tr td{
+    background-color: #f2f2f2;
+    border-radius: 15px; 
+    border: 5px solid #ffffff;
+    padding: 12px 15px 13px;  
+    text-align: center;
+    font-size: small; 
+  }
+  tr th{   
+    border-radius: 15px; 
+    border: 5px solid #ffffff;
+    padding: 20px;   
+  }
+  tr th{
+    padding: 50px;
+  }
+  </style>
+
+</head>
+<body style="background-color: #d4d4d4; font-family: 'Josefin Sans', sans-serif;">
+
+  
+
+
+<header>
+
+  <!-- carousel start -->
+
+  <div id="top-car" class="carousel slide" data-ride="carousel" data-interval="3000">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#top-car" data-slide-to="0" class="active"></li>
+      <li data-target="#top-car" data-slide-to="1"></li>
+      <li data-target="#top-car" data-slide-to="2"></li>
+      <li data-target="#top-car" data-slide-to="3"></li>
+    </ul>
+    
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/a.jpg" alt="Chicago" width="1100" height="300">
+        <div class="carousel-caption cap">
+          <h3 class="text-Center text-primary macc cp"><span class="text-danger mac">M</span>ac <span class="text-danger mac">C</span>are</h3>
+          <p class="display-4 text-success">Stay Safe | Stay Healthy</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/b.jpg" alt="Chicago" width="1100" height="300">
+        <div class="carousel-caption cap">
+          <h3 class="display-2 py-5 text-warning cp">Health</h3>
+          <p class="display-4 text-info pb-5">is wealth</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/d.jpg" alt="New York" width="1100" height="300">
+        <div class="carousel-caption cap">
+          <h3 class="display-2 py-5 text-success cp">Mind</h3>
+          <p class="display-4 text-danger pb-5">is power</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/c.jpg" alt="New York" width="1100" height="300">
+        <div class="carousel-caption cap">
+          <h3 class="display-2 py-5 text-info cp">Nothing</h3>
+          <p class="display-4 text-success pb-5">is impossible</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev bg-secondary" href="#top-car" data-slide="prev">
+      <span class="carousel-control-prev-icon bg-secondary"></span>
+    </a>
+    <a class="carousel-control-next bg-secondary" href="#top-car" data-slide="next">
+      <span class="carousel-control-next-icon bg-secondary"></span>
+    </a>
+  </div>
+
+<!-- carousel end -->
+
+
+<!-- nav start -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-md-3">
+      <a class="navbar-brand ml-md-4" href="index.html"> <img src="pro/pro3.png"  class="img-fluid" alt="mac care" style=" height: 45px; width: 140px;"> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+        <ul class="navbar-nav ml-auto my-md-0">
+          <li class="nav-item px-md-3 mx-md-2">
+            <a class="nav-link" href="contact.html">Contact US</a>
+          </li>
+
+          <li class="nav-item px-md-3 mx-md-2">
+            <a class="nav-link" href="dct.html">Doctors</a>
+          </li>
+
+          <li class="nav-item px-md-3 mx-md-2 ">
+            <a class="nav-link" href="event.html">Events</a>
+          </li>
+          
+          <li class="nav-item px-md-3 mx-md-2 active">
+            <a class="nav-link" href="#"><i class="fa fa-home"></i> Home</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- nav end -->
+
+</header>
+
+  <section id="about">
+    <div class="container py-md-4">
+      <!-- <div class="text-center py-4">
+        <h1>About Us</h1>
+        <hr class="w-25 bg-primary">
+      </div> -->
+      <div class="row pb-md-5 pt-md-1">
+        <div class="col-md-6">
+           <img src="pro/pro2.png" alt="myWebImage" class="img-fluid">
+           <h1 class="text-muted text-center pt-md-1">
+             <i class="fa fa-whatsapp px-md-3 whtap"></i>
+             <i class="fa fa-facebook px-md-3 fb"></i>
+             <i class="fa fa-twitter px-md-3 tw"></i>
+             <i class="fas fa-at px-md-3 at"></i>
+             <i class="fab fa-instagram px-md-3 in"></i>
+             <i class="fas fa-phone px-md-3 phn"></i>
+           </h1>
+        </div>
+        <div class="col-md-6 text-left pt-md-3 mb-0">
+          <h3 class="mb-md-1 display-3 who"><span class="text-danger">Who</span> are we</h3>
+           <hr class="w-50 bg-primary float-left pt-md-1 mt-md-1">
+           <br>
+           <p class="text-justify text-muted smpc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           <p class="text-justify text-muted smpc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquas.</p>
+        </div>
+        <div class="col-md-12 text-left mt-0"> 
+           <p class="text-justify text-muted smpc">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+  
+
+  <!-- DOCTORS start-->
+
+  <section class="dct py-md-3 pb-lg-5" id="dct">
+
+    <div class="jumbotron">
+      <p class="display-2 text-muted">Special Doctors</p>
+      <hr class="w-25 bg-primary float-left pt-md-1 mt-md-1">
+    </div>
+
+    <div  class="owl-carousel owl-theme py-md-4 ">
+
+
+      <div class="item">
+        <span>
+
+          <div class="card bg" >
+            <img class="card-img-top" src="dct/a.jpg" alt="" height="300px" width="100%">
+            <div class="card-body">
+              <h4 class="card-title">Dr. Jerin</h4>
+              <p class="card-text">Specialist: <span class="h4 text-danger">Ophthalmologists</span></p>
+              <p class="card-text">M.B.B.S, F.C.P.S, M.D</p>
+              <a href="dct-pro-Jerin.html" class="btn btn-outline-secondary stretched-link col-12 ">See Profile</a>
+            </div>
+          </div>
+
+        </span>
+      </div>
+
+      <div class="item">
+        <span>
+
+          <div class="card bg" >
+            <img class="card-img-top" src="dct/b.jpg" alt="" height="300px" width="100%">
+            <div class="card-body">
+              <h4 class="card-title">Dr. Eleas</h4>
+              <p class="card-text">Specialist: <span class="h4 text-danger">Dermatologists</span></p>
+              <p class="card-text">M.B.B.S, F.C.P.S, M.D</p>
+              <a href="dct-pro-Eleas.html" class="btn btn-outline-secondary stretched-link col-12 ">See Profile</a>
+            </div>
+          </div>
+
+        </span>
+      </div>
+
+      <div class="item">
+        <span>
+
+          <div class="card bg" >
+            <img class="card-img-top" src="dct/c.jpg" alt="" height="300px" width="100%">
+            <div class="card-body">
+              <h4 class="card-title">Dr. John</h4>
+              <p class="card-text">Specialist: <span class="h4 text-danger">Cardiologists</span></p>
+              <p class="card-text">M.B.B.S, F.C.P.S, M.D</p>
+              <a href="dct-pro-John.html" class="btn btn-outline-secondary stretched-link col-12 ">See Profile</a>
+            </div>
+          </div>
+
+        </span>
+      </div>
+
+      <div class="item">
+        <span>
+
+          <div class="card bg" >
+            <img class="card-img-top" src="dct/d.jpg" alt="" height="300px" width="100%">
+            <div class="card-body">
+              <h4 class="card-title">Dr. Usuph</h4>
+              <p class="card-text">Specialist: <span class="h4 text-danger">Cardiologists</span></p>
+              <p class="card-text">M.B.B.S, F.C.P.S, M.D</p>
+              <a href="dct-pro-Usuph.html" class="btn btn-outline-secondary stretched-link col-12 ">See Profile</a>
+            </div>
+          </div>
+
+        </span>
+      </div>
+
+      <div class="item">
+        <span>
+
+          <div class="card bg" >
+            <img class="card-img-top" src="dct/e.jpg" alt="" height="300px" width="100%">
+            <div class="card-body">
+              <h4 class="card-title">Dr. Josef</h4>
+              <p class="card-text">Specialist: <span class="h4 text-danger">Gastroenterologists</span></p>
+              <p class="card-text">M.B.B.S, F.C.P.S, M.D</p>
+              <a href="#" class="btn btn-outline-secondary stretched-link col-12 ">See Profile</a>
+            </div>
+          </div>
+
+        </span>
+      </div>
+
+      <div class="item">
+        <span>
+
+          <div class="card bg" >
+            <img class="card-img-top" src="dct/f.jpg" alt="" height="300px" width="100%">
+            <div class="card-body">
+              <h4 class="card-title">Dr. Kadambini</h4>
+              <p class="card-text">Specialist: <span class="h4 text-danger">Ophthalmologists</span></p>
+              <p class="card-text">M.B.B.S, F.C.P.S, M.D</p>
+              <a href="#" class="btn btn-outline-secondary stretched-link col-12 ">See Profile</a>
+            </div>
+          </div>
+
+        </span>
+      </div>
+
+      <div class="item">
+        <span>
+
+          <div class="card bg" >
+            <img class="card-img-top" src="dct/g.jpg" alt="" height="300px" width="100%">
+            <div class="card-body">
+              <h4 class="card-title">Dr. Mea Jemison</h4>
+              <p class="card-text">Specialist: <span class="h4 text-danger">Obstetrician</span></p>
+              <p class="card-text">M.B.B.S, F.C.P.S, M.D</p>
+              <a href="#" class="btn btn-outline-secondary stretched-link col-12 ">See Profile</a>
+            </div>
+          </div>
+
+        </span>
+      </div>
+
+      <div class="item">
+        <span>
+
+          <div class="card bg" >
+            <img class="card-img-top" src="dct/h.jpg" alt="" height="300px" width="100%">
+            <div class="card-body">
+              <h4 class="card-title">Dr. Kabir</h4>
+              <p class="card-text">Specialist: <span class="h4 text-danger">Obstetrician</span></p>
+              <p class="card-text">M.B.B.S, F.C.P.S, M.D</p>
+              <a href="#" class="btn btn-outline-secondary stretched-link col-12 ">See Profile</a>
+            </div>
+          </div>
+
+        </span>
+      </div>
+
+      <div class="item">
+        <span>
+
+          <div class="card bg" >
+            <img class="card-img-top" src="dct/i.jpg" alt="" height="300px" width="100%">
+            <div class="card-body">
+              <h4 class="card-title">Dr. Elizabeth</h4>
+              <p class="card-text">Specialist: <span class="h4 text-danger">Gastroenterologists</span></p>
+              <p class="card-text">M.B.B.S, F.C.P.S, M.D</p>
+              <a href="#" class="btn btn-outline-secondary stretched-link col-12 ">See Profile</a>
+            </div>
+          </div>
+
+        </span>
+      </div>
+
+      <div class="item">
+        <span>
+          
+          <div class="card bg" >
+            <img class="card-img-top" src="dct/j.jpg" alt="" height="300px" width="100%">
+            <div class="card-body">
+              <h4 class="card-title">Dr. Reid</h4>
+              <p class="card-text">Specialist: <span class="h4 text-danger">Infectious disease</span></p>
+              <p class="card-text">M.B.B.S, F.C.P.S, M.D</p>
+              <a href="dct-pro-Reid.html" class="btn btn-outline-secondary stretched-link col-12 ">See Profile</a>
+            </div>
+          </div>
+
+        </span>
+      </div>
+
+
+    </div>
+
+      <a href="dct.html" class="btn btn-outline-info col-12">See More</a>
+  </section>
+
+  <!-- DOCTORS end-->
+
+  <!-- why we start -->
+
+  <section class="py-md-5" id="add">
+    <div class="container-fluid">
+      <div class="row my-md-2 px-md-3">
+        <div class="col-md-6 py-md-5 wh-div">
+          <h1 class="py-md-4 display-2 text-danger wh-1 px-md-3">Why we are best?</h1>
+          <hr class="w-50 bg-success my-sm-1 pt-md-1">
+          <p class="py-md-4 h3 wh-2 text-justify px-md-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>              
+        </div>  
+      </div>
+    </div>
+  </section>
+
+  <!-- why we end -->
+
+
+
+
+  <!-- department Start-->
+
+  <section class="dpt py-md-3 pb-lg-5" id="dpt">
+
+    <div class="jumbotron bg-transparent">
+      <p class="display-2 text-muted text-right">Our Departments</p>
+      <hr class="w-25 bg-primary float-right pt-md-1 mt-md-1">
+    </div>
+
+    <div  class="owl-carousel owl-theme py-md-4">
+
+      <div class="item">
+        <span>
+
+          <div class="card bg-1" >
+            <img class="card-img-top" src="dpt/a.jpg" alt="" height="300px" width="100%">
+            <div class="card-body">
+              <p class="card-text"><span class="h4 text-danger">Ophthalmology</span></p>
+              <a href="dept-Ophthalmology.html" class="btn btn-outline-secondary stretched-link col-12 ">Talk To Doctors</a>
+            </div>
+          </div>
+
+        </span>
+      </div>
+
+      <div class="item">
+        <span>
+
+          <div class="card bg-1" >
+            <img class="card-img-top" src="dpt/b.jpg" alt="" height="300px" width="100%">
+            <div class="card-body">
+              <p class="card-text"><span class="h4 text-danger">Dermatology</span></p>
+              <a href="dept-Dermatology.html" class="btn btn-outline-secondary stretched-link col-12 ">Talk To Doctors</a>
+            </div>
+          </div>
+
+        </span>
+      </div>
+
+      <div class="item">
+        <span>
+
+          <div class="card bg-1" >
+            <img class="card-img-top" src="dpt/c.jpg" alt="" height="300px" width="100%">
+            <div class="card-body">
+              <p class="card-text"><span class="h4 text-danger">Cardiology</span></p>
+              <a href="dept-Cardiology.html" class="btn btn-outline-secondary stretched-link col-12 ">Talk To Doctors</a>
+            </div>
+          </div>
+
+        </span>
+      </div>
+
+      <div class="item">
+        <span>
+
+          <div class="card bg-1" >
+            <img class="card-img-top" src="dpt/d.jpg" alt="" height="300px" width="100%">
+            <div class="card-body">
+              <p class="card-text"><span class="h4 text-danger">Gastroenterology</span></p>
+              <a href="#" class="btn btn-outline-secondary stretched-link col-12 ">Talk To Doctors</a>
+            </div>
+          </div>
+
+        </span>
+      </div>
+
+      <div class="item">
+        <span>
+
+          <div class="card bg-1" >
+            <img class="card-img-top" src="dpt/e.jpg" alt="" height="300px" width="100%">
+            <div class="card-body">
+              <p class="card-text"><span class="h4 text-danger">Obstetricy</span></p>
+              <a href="#" class="btn btn-outline-secondary stretched-link col-12 ">Talk To Doctors</a>
+            </div>
+          </div>
+
+        </span>
+      </div>
+
+      <div class="item">
+        <span>
+          
+          <div class="card bg-1" >
+            <img class="card-img-top" src="dpt/f.jpg" alt="" height="300px" width="100%">
+            <div class="card-body">
+              <p class="card-text"><span class="h4 text-danger">COVID-19</span></p>
+              <a href="#" class="btn btn-outline-secondary stretched-link col-12 ">Talk To Doctors</a>
+            </div>
+          </div>
+
+        </span>
+      </div>
+
+      <div class="item">
+        <span>
+          
+          <div class="card bg-1" >
+            <img class="card-img-top" src="dpt/g.jpg" alt="" height="300px" width="100%">
+            <div class="card-body">
+              <p class="card-text"><span class="h4 text-danger">Dengue Fever</span></p>
+              <a href="#" class="btn btn-outline-secondary stretched-link col-12 ">Talk To Doctors</a>
+            </div>
+          </div>
+
+        </span>
+      </div>
+
+
+    </div>
+
+      <a href="dct.html" class="btn btn-outline-info col-12">See More</a>
+  </section>
+
+  <!-- department end-->
+
+
+  <!-- awored start -->
+
+  <section class="bg-info">
+    <div class="container py-5 my-md-5">
+      <div class="row text-center">
+        <div class="col-sm-4 py-xs-5 my-sm-3">
+          <h1><i class="fas fa-smile-beam display-1 text-light"></i></h1>
+          <h1 class="counter text-warning">5428</h1>
+          <h3 class="awd-h3">Happy Face</h3>      
+        </div>
+        <div class="col-sm-4 py-xs-5 my-sm-3">
+          <h1><i class="fas fa-list-ol display-1 text-light"></i></h1>
+            <h1 class="counter text-warning">159</h1>
+            <h3 class="awd-h3">Complex Deseases</h3>    
+        </div>
+        <div class="col-sm-4 py-xs-5 my-sm-3">
+          <h1><i class="fas fa-award display-1 text-light"></i></h1>
+            <h1 class="counter text-warning">39</h1>
+            <h3 class="awd-h3">Award Own</h3>    
+        </div>    
+      </div>
+    </div>
+  </section>
+
+  <!-- awored end -->
+
+
+  <!-- Time table -->
+  
+  <section>
+        <div class="container-fluid">
+          <div>
+            <h1>Appoinment</h1>
+            <p></p>          
+            <hr class="w-25 bg-primary float-left">          
+         </div>
+          <div class="table-responsive pt-3">
+            <table class="table table-bordared">
+              <tr class="text-white text-center">
+                  <th class="bg-dark">Time</th>
+                  <th class="bg-primary">Monday</th>
+                  <th class="bg-primary">Tuesday</th>
+                  <th class="bg-primary">Wednesday</th>
+                  <th class="bg-primary">Thrusday</th>
+                  <th class="bg-primary">Friday</th>
+                  <th class="bg-primary">Saturday</th>
+                  <th class="bg-primary">Sunday</th>
+              </tr>
+              <tr>
+                  <td class="">8:00am</td>
+                  <td class="th">                                   
+                    <h5 class="text-primary b">Contact Lens</h5>  
+                    <span class="text-muted">08:00am - 09.00am</span>
+                    <h6>Dr. Jeni</h6>                            
+                  </td>                
+                  <td></td>
+                  <td>            
+                      <h5 class="text-primary">Contact Lens</h5>  
+                      <span class="text-muted">08:00am - 09.00am</span>
+                        <h6>Dr. Jeni</h6>                            
+                    </td>
+                
+                    <td></td>       
+                    <td class="th">                   
+                        <h5 class="text-primary">Contact Lens</h5>  
+                        <span class="text-muted">08:00am - 09.00am</span>
+                        <h6>Dr. Jeni</h6>                            
+                    </td> 
+              
+                  <td class="th">                   
+                      <h5 class="text-primary">Contact Lens</h5>  
+                      <span class="text-muted">08:00am - 09.00am</span>
+                      <h6>Dr. Jeni</h6>                            
+                  </td>                
+                  <td></td>
+                </tr>
+                <tr >
+                    <td>10:00am</td>                
+                    <td class="th">                   
+                      <h5 class="text-primary">Contact Lens</h5>  
+                      <span class="text-muted">08:00am - 09.00am</span>
+                        <h6>Dr. Jeni</h6>                            
+                    </td>        
+                    <td></td>
+                      <td class="th">                   
+                        <h5 class="text-primary">Contact Lens</h5>  
+                        <span class="text-muted">08:00am - 09.00am</span>
+                          <h6>Dr. Jeni</h6>                            
+                      </td>                  
+                      <td></td>
+                      <td class="th">                   
+                        <h5 class="text-primary">Contact Lens</h5>  
+                        <span class="text-muted">08:00am - 09.00am</span>
+                        <h6>Dr. Jeni</h6>                            
+                      </td>
+                    <td></td>
+                      <td class="th">                   
+                        <h5 class="text-primary">Contact Lens</h5>  
+                        <span class="text-muted">08:00am - 09.00am</span>
+                        <h6>Dr. Jeni</h6>                            
+                      </td>
+                    
+              </tr>
+              <tr>
+                  <td>12:00am</td>
+                  <td></td>                
+                  <td class="th">                   
+                    <h5 class="text-primary">Contact Lens</h5>  
+                    <span class="text-muted">08:00am - 09.00am</span>
+                      <h6>Dr. Jeni</h6>                            
+                  </td>                
+                  <td></td>               
+                  <td class="th">                   
+                    <h5 class="text-primary">Contact Lens</h5>  
+                    <span class="text-muted">08:00am - 09.00am</span>
+                      <h6>Dr. Jeni</h6>                            
+                  </td>                           
+                  <td></td>                  
+                  <td></td>                  
+                  <td class="th">                   
+                    <h5 class="text-primary">Contact Lens</h5>  
+                    <span class="text-muted">08:00am - 09.00am</span>
+                      <h6>Dr. Jeni</h6>                            
+                  </td> 
+              </tr>
+
+              <tr>
+                  <td>02:00pm</td>                
+                  <td class="th">                   
+                    <h5 class="text-primary">Contact Lens</h5>  
+                    <span class="text-muted">08:00am - 09.00am</span>
+                      <h6>Dr. Jeni</h6>                            
+                  </td>
+
+                  <td></td>
+                  <td class="th">                   
+                    <h5 class="text-primary">Contact Lens</h5>  
+                    <span class="text-muted">08:00am - 09.00am</span>
+                      <h6>Dr. Jeni</h6>                            
+                  </td>
+                  <td></td>
+                  <td class="th">                   
+                    <h5 class="text-primary">Contact Lens</h5>  
+                    <span class="text-muted">08:00am - 09.00am</span>
+                     <h6>Dr. Jeni</h6>                            
+                  <td></td>
+                  </td> 
+                  <td class="th">                   
+                    <h5 class="text-primary">Contact Lens</h5>  
+                    <span class="text-muted">08:00am - 09.00am</span>
+                     <h6>Dr. Jeni</h6>
+                  </td>    
+              </tr>
+              <tr>
+                <td>04:00pm</td>                
+                <td></td>
+                <td class="th">                   
+                  <h5 class="text-primary">Contact Lens</h5>  
+                  <span class="text-muted">08:00am - 09.00am</span>
+                   <h6>Dr. Jeni</h6>                            
+                </td>
+                <td></td>
+                <td class="th">                   
+                  <h5 class="text-primary">Contact Lens</h5>  
+                  <span class="text-muted">08:00am - 09.00am</span>
+                   <h6>Dr. Jeni</h6>                            
+                </td>
+                <td></td>
+                  <td class="th">                   
+                    <h5 class="text-primary">Contact Lens</h5>  
+                    <span class="text-muted">08:00am - 09.00am</span>
+                     <h6>Dr. Jeni</h6>                            
+                  </td>               
+                <td></td> 
+              </tr>        
+              <tr>
+                <td>10:00am</td>
+                <td class="th">                   
+                  <h5 class="text-primary">Contact Lens</h5>  
+                  <span class="text-muted">08:00am - 09.00am</span>
+                   <h6>Dr. Jeni</h6>                            
+                </td>
+                <td></td>
+                <td class="th">                   
+                  <h5 class="text-primary">Contact Lens</h5>  
+                  <span class="text-muted">08:00am - 09.00am</span>
+                   <h6>Dr. Jeni</h6>                            
+                </td>
+                <td class="th">                   
+                  <h5 class="text-primary">Contact Lens</h5>  
+                  <span class="text-muted">08:00am - 09.00am</span>
+                   <h6>Dr. Jeni</h6>                            
+                </td>
+                <td class="th">                   
+                  <h5 class="text-primary">Contact Lens</h5>  
+                  <span class="text-muted">08:00am - 09.00am</span>
+                   <h6>Dr. Jeni</h6>                            
+                </td>               
+                <td></td>                
+                <td></td>       
+              </tr>
+            </table>
+          </div>
+        </div>
+
+  <!-- footer over start -->
+
+  <section class="bg-secondary py-md-3">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="text-light">About Mac Care</h1>
+          <hr class="w-25 bg-light float-left">
+        </div>
+        <div class="col-md-6 smpc">
+          <p class="text-justify text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="text-justify text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+      <div class="row">
+        <hr class="w-75 bg-light col-12">
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="text-light">Contact Details</h1>
+          <hr class="w-25 bg-light float-left">
+        </div>
+        <div class="col-md-6">
+          <ul class="list-group list-group-flush text-dark">
+            <li class="list-group-item bg-transparent"><i class="fas fa-map-marked-alt h3 text-light"></i> <span> Park Drive, Varick Str New York, NY 10012, USA</span></li>
+            <li class="list-group-item bg-transparent"><i class="fas fa-at h3 text-light"></i> <span> info@MacCare.com</span></li>
+            <li class="list-group-item bg-transparent"><i class="fas fa-phone h3 text-light"></i> <span> (123)-0200-12345-&-7890</span></li>
+            <li class="list-group-item bg-transparent"><i class="far fa-clock h3 text-light"></i> <span> Mon-Satday: 9am to 18pm</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <!-- footer over end -->
+
+  <!-- footer start -->
+
+  <footer class="bg-dark text-muted py-3">
+    <div class="container-fluid">
+      <div class="row">
+        <p class="text-left col-md-6 h5 py-md-3">Copyrights &copy 2020 All Rights Reserved, Powered by <a href="#"> Mac Care</a>.</p>
+        <h1 class="text-muted text-right col-md-6 px-md-5">
+          <a href="#" class="text-muted" title=""><i class="fa fa-whatsapp mx-2 whtap"></i></a>
+          <a href="#" class="text-muted" title=""><i class="fa fa-facebook mx-2 fb"></i></a>
+          <a href="#" class="text-muted" title=""><i class="fa fa-twitter mx-2 tw"></i></a>
+          <a href="#" class="text-muted" title=""><i class="fas fa-at mx-2 at"></i></a>
+          <a href="#" class="text-muted" title=""><i class="fab fa-instagram mx-2 in"></i></a>
+          <a href="#" class="text-muted" title=""><i class="fas fa-phone mx-2 phn"></i></a>
+        </h1>
+      </div>
+    </div>
+  </footer>
+
+  <!-- footer end -->
+
+
+
+
+
+  <script src="https://kit.fontawesome.com/357cf294b1.js" crossorigin="anonymous"></script>
+  <!-- bst4 script -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="js/count/jquery.counterup.min.js"></script>
+  <script>
+    $('.counter').counterUp({
+      delay: 10,
+      time: 1000
+    });
+  </script>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/scrl/jquery.scrollUp.min.js"></script>
+  <script>
+    $(function () {
+        $.scrollUp({
+            scrollName: 'scrollUp',      // Element ID
+            scrollDistance: 200,         // Distance from top/bottom before showing element (px)
+            scrollFrom: 'top',           // 'top' or 'bottom'
+            scrollSpeed: 500,            // Speed back to top (ms)
+            easingType: 'linear',        // Scroll to top easing (see http://easings.net/)
+            animation: 'fade',           // Fade, slide, none
+            animationSpeed: 400,         // Animation speed (ms)
+            scrollTrigger: false,        // Set a custom triggering element. Can be an HTML string or jQuery object
+            scrollTarget: false,         // Set a custom target element for scrolling to. Can be element or number
+            scrollText: 'to top',       // Text for element, can contain HTML
+            scrollTitle: false,          // Set a custom <a> title if required.
+            scrollImg: true,            // Set true to use image
+            activeOverlay: false,        // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+            zIndex: 2147483647           // Z-Index for the overlay
+        });
+    });
+  </script>
+  
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:5,
+        nav:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:4
+            }
+        }
+    })
+  </script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MacCare-Event-COVID-19</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- bst css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl/owl.theme.default.css">
+  
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Krona+One&family=Zilla+Slab&display=swap" rel="stylesheet">
+
+  <style>
+    .carousel-inner img {
+      width: 100%;
+      height: 600px;
+    }
+    .whtap:hover{
+      color: #10c600;
+      transition: 0.7s;
+    }
+    .fb:hover{
+      color: #0024ff;
+      transition: 0.7s;
+    }
+    .tw:hover{
+      color: #03afe3;
+      transition: 0.7s;
+    }
+    .at:hover{
+      color: #ec3000;
+      transition: 0.7s;
+    }
+    .in:hover{
+      color: #ff000f;
+      transition: 0.7s;
+    }
+    .phn:hover{
+      color: #00d81e;
+      transition: 0.7s;
+    }
+    #scrollUp{
+        background-image: url("js/scrl/top.png");
+        bottom: 20px;
+        right: 20px;
+        width: 38px;    /* Width of image */
+        height: 38px;   /* Height of image */
+    }
+    .bg{
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0.20) 0%, rgba(134, 0, 233, 0.30) 50%, rgba(225,225,225, 0.20) 100%);
+    }
+</style>
+</head>
+<body style="background-color: #cccccc; font-family: 'Josefin Sans', sans-serif;">
+
+  
+
+<header>
+
+
+<!-- nav start -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-md-3">
+      <a class="navbar-brand ml-md-4" href="index.html"> <img src="pro/pro3.png"  class="img-fluid" alt="mac care" style=" height: 45px; width: 140px;"> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+        <ul class="navbar-nav ml-auto my-md-0">
+          <li class="nav-item px-md-3 mx-md-2">
+            <a class="nav-link" href="contact.html">Contact US</a>
+          </li>
+
+          <li class="nav-item px-md-3 mx-md-2">
+            <a class="nav-link" href="dct.html">Doctors</a>
+          </li>
+
+          <li class="nav-item px-md-3 mx-md-2 active">
+            <a class="nav-link" href="event.html"><i class="far fa-calendar-alt"></i> Events</a>
+          </li>
+          
+          <li class="nav-item px-md-3 mx-md-2">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- nav end -->
+
+
+<div class="row">
+            <div class="col-md-12">
+                <div class="alert alert-danger text-center" role="alert">
+                    সকলের অবগতির জন্য জানানো যাচ্ছে যে, এই সাইটের সকল ডাটা <a target="_blank" href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a> এর অধীনে প্রকাশিত। যার মাধ্যমে আপনি নিজে সাইটের সকল তথ্য ব্যাবহার করতে পারবেন তবে শর্ত হল আপনাকে অবশ্যই "একতা হোস্ট" এর ক্রেডিট দিতে হবে এবং আপনি এই তথ্য ব্যাবহার করে কিছু বিক্রি করতে পারবেন না। অন্যথায় আপনার সাইটে আমাদের ডাটা কাজ করবেনা।
+                </div>
+            </div>
+        </div>
+                <div class="row">
+            <div class="col-12">
+                <div class="mb-3 text-center d-block d-sm-none">আজ সোমবার, ১৯শে অক্টোবর, ২০২০ইং</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-md-3">
+                <div class="countCard confirmed">
+                    <h2>মোট আক্রান্ত</h2>
+                    <h1 class="counter">390,206</h1>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="countCard recovered">
+                    <h2>মোট সুস্থ</h2>
+                    <h1 class="counter">305,599</h1>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="countCard deaths">
+                    <h2>মোট মৃত্যু</h2>
+                    <h1 class="counter">5,681</h1>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="countCard tested">
+                    <h2>মোট নমুনা পরিক্ষা</h2>
+                    <h1 class="counter">2,178,714</h1>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-3">
+                <div class="countCard new">
+                    <h2>নতুন আক্রান্ত</h2>
+                    <h1 class="counter">1,637</h1>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="countCard new ">
+                    <h2>নতুন সুস্থ</h2>
+                    <h1 class="counter">1,627</h1>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="countCard new ">
+                    <h2>নতুন মৃত্যু</h2>
+                    <h1 class="counter">21</h1>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="countCard new">
+                    <h2>নতুন নমুনা পরিক্ষা</h2>
+                    <h1 class="counter">15,146</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="card mb-4">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <span>মোট পরিসংখ্যান</span>
+                        <small class=" d-none d-sm-block">সর্বশেষ আপডেট : ১৯শে অক্টোবর, ২০২০ বিকাল ৪:৩৯</small>
+                    </div>
+                    <div class="card-body">
+                        <canvas style="display: none;" id="fdauwvyklpjtcbezhgmnoisrx"  height='400' ></canvas>
+<div id="fdauwvyklpjtcbezhgmnoisrx_loader" style="
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    align-items: center;
+    height: 400px;
+    
+">
+    <svg width="50" height="50" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient x1="8.042%" y1="0%" x2="65.682%" y2="23.865%" id="a">
+                <stop stop-color="#22292F" stop-opacity="0" offset="0%"/>
+                <stop stop-color="#22292F" stop-opacity=".631" offset="63.146%"/>
+                <stop stop-color="#22292F" offset="100%"/>
+            </linearGradient>
+        </defs>
+        <g fill="none" fill-rule="evenodd">
+            <g transform="translate(1 1)">
+                <path d="M36 18c0-9.94-8.06-18-18-18" id="Oval-2" stroke="url(#a)" stroke-width="2">
+                    <animateTransform
+                        attributeName="transform"
+                        type="rotate"
+                        from="0 18 18"
+                        to="360 18 18"
+                        dur="0.9s"
+                        repeatCount="indefinite" />
+                </path>
+                <circle fill="#22292F" cx="36" cy="18" r="1">
+                    <animateTransform
+                        attributeName="transform"
+                        type="rotate"
+                        from="0 18 18"
+                        to="360 18 18"
+                        dur="0.9s"
+                        repeatCount="indefinite" />
+                </circle>
+            </g>
+        </g>
+    </svg>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card mb-4">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <span>লিঙ্গ সমষ্টি</span>
+                        <small class=" d-none d-sm-block">সর্বশেষ আপডেট : ১১ই জুন, ২০২০ সকাল ১০:৫৫</small>
+                    </div>
+                    <div class="card-body">
+                        <canvas style="display: none;" id="dtiunwphqloyefxbgczasvjrm"  height='400' ></canvas>
+<div id="dtiunwphqloyefxbgczasvjrm_loader" style="
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    align-items: center;
+    height: 400px;
+    
+">
+    <svg width="50" height="50" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient x1="8.042%" y1="0%" x2="65.682%" y2="23.865%" id="a">
+                <stop stop-color="#22292F" stop-opacity="0" offset="0%"/>
+                <stop stop-color="#22292F" stop-opacity=".631" offset="63.146%"/>
+                <stop stop-color="#22292F" offset="100%"/>
+            </linearGradient>
+        </defs>
+        <g fill="none" fill-rule="evenodd">
+            <g transform="translate(1 1)">
+                <path d="M36 18c0-9.94-8.06-18-18-18" id="Oval-2" stroke="url(#a)" stroke-width="2">
+                    <animateTransform
+                        attributeName="transform"
+                        type="rotate"
+                        from="0 18 18"
+                        to="360 18 18"
+                        dur="0.9s"
+                        repeatCount="indefinite" />
+                </path>
+                <circle fill="#22292F" cx="36" cy="18" r="1">
+                    <animateTransform
+                        attributeName="transform"
+                        type="rotate"
+                        from="0 18 18"
+                        to="360 18 18"
+                        dur="0.9s"
+                        repeatCount="indefinite" />
+                </circle>
+            </g>
+        </g>
+    </svg>
+</div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card mb-4">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <span>বয়সের সমষ্টি</span>
+                        <small class=" d-none d-sm-block">সর্বশেষ আপডেট : ১১ই জুন, ২০২০ সকাল ১০:৫৪</small>
+                    </div>
+                    <div class="card-body">
+                        <canvas style="display: none;" id="lvgrkmydtzpienbshfocjwuax"  height='400' ></canvas>
+<div id="lvgrkmydtzpienbshfocjwuax_loader" style="
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    align-items: center;
+    height: 400px;
+    
+">
+    <svg width="50" height="50" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient x1="8.042%" y1="0%" x2="65.682%" y2="23.865%" id="a">
+                <stop stop-color="#22292F" stop-opacity="0" offset="0%"/>
+                <stop stop-color="#22292F" stop-opacity=".631" offset="63.146%"/>
+                <stop stop-color="#22292F" offset="100%"/>
+            </linearGradient>
+        </defs>
+        <g fill="none" fill-rule="evenodd">
+            <g transform="translate(1 1)">
+                <path d="M36 18c0-9.94-8.06-18-18-18" id="Oval-2" stroke="url(#a)" stroke-width="2">
+                    <animateTransform
+                        attributeName="transform"
+                        type="rotate"
+                        from="0 18 18"
+                        to="360 18 18"
+                        dur="0.9s"
+                        repeatCount="indefinite" />
+                </path>
+                <circle fill="#22292F" cx="36" cy="18" r="1">
+                    <animateTransform
+                        attributeName="transform"
+                        type="rotate"
+                        from="0 18 18"
+                        to="360 18 18"
+                        dur="0.9s"
+                        repeatCount="indefinite" />
+                </circle>
+            </g>
+        </g>
+    </svg>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!--  <div class="card mb-4">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <span>জেলা ভিত্তিক তথ্য</span>
+                <small class=" d-none d-sm-block">সর্বশেষ আপডেট : ১৭ই অক্টোবর, ২০২০ সকাল ১১:৫৫</small>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive-lg">
+                    <table id="districts" class="table table-border table-hover">
+                        <thead>
+                            <tr>
+                                <th>জেলার নাম</th>
+                                <th>আক্রান্ত</th>
+                                <th>সুস্থ</th>
+                                <th>মৃত্যু</th>
+                                <th>জেলা আক্রান্তের হার</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    
+        <div class="navbar-light bg-light mt-3 mb-5 ">
+            <div class="text-center p-2">
+                <span>গর্বের সাথে ওয়েবসাইটটি স্পন্সর করেছেন : <a target="_blank" href="https://ekotahost.com">একতা হোস্ট</a> :: ওয়েবসাইটটি <i class="fas fa-heart fa-sm text-red" style="color:red;"></i> দিয়ে তৈরি করেছেন : <a target="_blank" href="https://fb.com/amdad121">এমদাদুল হক</a> :: সার্বিক সহযোগিতায় : <a target="_blank" href="https://fb.com/mozahid679">মুজাহিদুল ইসলাম</a></span>
+                <ul class="list-unstyled m-0">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://m.me/amdad121">
+                            <i class="fab fa-facebook-messenger"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://github.com/amdad121">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.youtube.com/channel/UCtE1pdgo-6Mv0o7mNAAHpJg/">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://twitter.com/amdad121">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://instagram.com/amdad121">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div> -->
+    </div>
+
+    <script src="https://covid.codeofamdad.com/js/jquery-3.4.1.min.js"></script>
+    <script src="https://covid.codeofamdad.com/js/bootstrap.min.js"></script>
+    <script src="https://covid.codeofamdad.com/js/jquery.waypoints.min.js"></script>
+<script src="https://covid.codeofamdad.com/js/jquery.countup.min.js"></script>
+<script src="https://covid.codeofamdad.com/js/jquery.dataTables.min.js"></script>
+<script src="https://covid.codeofamdad.com/js/dataTables.bootstrap4.min.js"></script>
+<script src="https://covid.codeofamdad.com/js/Chart.min.js"></script>
+<script  type="text/javascript">
+    var ctvChart = document.getElementById('fdauwvyklpjtcbezhgmnoisrx').getContext('2d');
+    function fdauwvyklpjtcbezhgmnoisrx_create(data) {
+        fdauwvyklpjtcbezhgmnoisrx_rendered = true;
+        document.getElementById("fdauwvyklpjtcbezhgmnoisrx_loader").style.display = 'none';
+        document.getElementById("fdauwvyklpjtcbezhgmnoisrx").style.display = 'block';
+        window.fdauwvyklpjtcbezhgmnoisrx = new Chart(document.getElementById("fdauwvyklpjtcbezhgmnoisrx").getContext("2d"), {
+            type: data[0].type,
+            data: {
+                labels: ["\u09e6\u09ea-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09eb-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ec-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ed-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ee-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ef-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e6-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e7-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e8-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e9-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ea-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09eb-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ec-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ed-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ee-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ef-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e6-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e7-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e8-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e9-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ea-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09eb-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ec-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ed-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ee-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ef-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e9\u09e6-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e9\u09e7-\u09e6\u09e9-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09e7-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09e8-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09e9-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ea-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09eb-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ec-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ed-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ee-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ef-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e6-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e7-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e8-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e9-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ea-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09eb-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ec-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ed-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ee-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ef-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e6-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e7-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e8-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e9-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ea-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09eb-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ec-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ed-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ee-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ef-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e9\u09e6-\u09e6\u09ea-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09e7-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09e8-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09e9-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ea-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09eb-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ec-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ed-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ee-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ef-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e6-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e7-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e8-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e9-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ea-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09eb-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ec-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ed-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ee-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ef-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e6-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e7-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e8-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e9-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ea-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09eb-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ec-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ed-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ee-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ef-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e9\u09e6-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e9\u09e7-\u09e6\u09eb-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09e7-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09e8-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09e9-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ea-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09eb-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ec-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ed-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ee-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ef-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e6-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e7-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e8-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e9-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ea-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09eb-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ec-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ed-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ee-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ef-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e6-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e7-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e8-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e9-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ea-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09eb-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ec-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ed-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ee-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ef-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e9\u09e6-\u09e6\u09ec-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09e7-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09e8-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09e9-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ea-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09eb-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ec-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ed-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ee-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ef-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e6-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e7-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e8-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e9-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ea-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09eb-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ec-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ed-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ee-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ef-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e6-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e7-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e8-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e9-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ea-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09eb-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ec-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ed-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ee-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ef-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e9\u09e6-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e9\u09e7-\u09e6\u09ed-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09e7-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09e8-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09e9-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ea-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09eb-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ec-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ed-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ee-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ef-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e6-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e7-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e8-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e9-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ea-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09eb-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ec-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ed-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ee-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ef-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e6-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e7-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e8-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e9-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ea-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09eb-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ec-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ed-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ee-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ef-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e9\u09e6-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e9\u09e7-\u09e6\u09ee-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09e7-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09e8-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09e9-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ea-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09eb-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ec-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ed-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ee-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ef-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e6-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e7-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e8-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e9-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ea-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09eb-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ec-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ed-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ee-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ef-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e6-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e7-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e8-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09e9-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ea-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09eb-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ec-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ed-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ee-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e8\u09ef-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e9\u09e6-\u09e6\u09ef-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09e7-\u09e7\u09e6-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09e8-\u09e7\u09e6-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09e9-\u09e7\u09e6-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ea-\u09e7\u09e6-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09eb-\u09e7\u09e6-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ec-\u09e7\u09e6-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ed-\u09e7\u09e6-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ee-\u09e7\u09e6-\u09e8\u09e6\u09e8\u09e6","\u09e6\u09ef-\u09e7\u09e6-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e6-\u09e7\u09e6-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e7-\u09e7\u09e6-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e8-\u09e7\u09e6-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09e9-\u09e7\u09e6-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ea-\u09e7\u09e6-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09eb-\u09e7\u09e6-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ec-\u09e7\u09e6-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ed-\u09e7\u09e6-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ee-\u09e7\u09e6-\u09e8\u09e6\u09e8\u09e6","\u09e7\u09ef-\u09e7\u09e6-\u09e8\u09e6\u09e8\u09e6"],
+                datasets: data
+            },
+            options: {"maintainAspectRatio":false,"scales":{"xAxes":[],"yAxes":[{"ticks":{"beginAtZero":true}}]}},
+            plugins: []
+        });
+    }
+    let fdauwvyklpjtcbezhgmnoisrx_rendered = false;
+let fdauwvyklpjtcbezhgmnoisrx_load = function () {
+    if (document.getElementById("fdauwvyklpjtcbezhgmnoisrx") && !fdauwvyklpjtcbezhgmnoisrx_rendered) {
+                    fdauwvyklpjtcbezhgmnoisrx_create([{"borderWidth":2,"borderColor":"tomato","backgroundColor":"tomato","fill":false,"data":["0","0","0","0","3","0","0","0","0","0","0","2","3","2","4","3","3","4","3","6","6","0","5","4","0","0","1","2","3","2","5","9","18","35","41","54","112","94","58","139","182","209","219","341","266","306","312","492","434","390","414","503","309","418","497","549","641","564","571","552","665","688","786","790","706","709","636","887","1034","969","1162","1041","1202","930","1273","1602","1251","1617","1773","1694","1873","1532","1975","1166","1541","2029","2523","1764","2545","2381","2911","2695","2423","2828","2635","2743","2735","3171","3190","3187","3471","2856","3141","3099","3862","4008","3803","3243","3240","3531","3480","3412","3462","3946","3868","3504","3809","4014","3682","3775","4019","3114","3288","2738","3201","3027","3489","3360","2949","2686","2666","3099","3163","3533","2733","3034","2709","2459","2928","3057","2744","2856","2548","2520","2275","2772","2960","3009","2695","2772","2199","886","1356","1918","2654","2977","2851","2611","2487","2907","2996","2995","2617","2766","2644","2024","2595","3200","2747","2868","2401","2265","1973","2485","2545","2519","2436","2211","2131","1897","2174","1950","2582","2158","1929","1950","1592","2202","1892","1827","1892","1792","1282","1476","1812","1724","1615","1593","1541","1567","1544","1705","1557","1666","1540","1383","1106","1275","1407","1488","1436","1508","1396","1182","1125","1442","1499","1520","1441","1278","1203","1193","1472","1537","1684","1600","1527","1209","1274","1637"],"label":"\u0986\u0995\u09cd\u09b0\u09be\u09a8\u09cd\u09a4","type":"line"},{"borderWidth":2,"borderColor":"orange","backgroundColor":"orange","fill":false,"data":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","3","0","0","1","1","0","0","0","0","10","10","0","0","0","5","3","0","0","0","0","0","3","3","3","0","7","0","9","8","9","10","2","5","16","4","1","9","9","8","11","10","14","3","886","146","194","377","130","191","313","236","252","245","214","242","279","235","256","212","408","214","395","588","296","415","433","245","346","500","590","360","406","816","523","470","571","643","521","578","657","777","563","848","502","578","903","15296","2237","1925","1975","2781","1048","1084","1678","880","2031","1829","1638","1185","1409","2053","1844","2484","4334","1606","2673","1904","3524","1953","2736","3706","1862","1628","5580","4703","4910","1796","1940","1762","1373","1546","1914","1841","1805","2006","1768","1114","1792","1801","1731","1881","2668","2176","1117","586","1066","1955","1890","2074","1760","1020","1766","2062","1535","1117","1782","1752","1012","1315","1641","3234","2913","3253","3624","2952","3524","3784","3881","3427","3275","3378","2027","3044","2980","3290","2839","2964","2211","1661","3423","3298","3236","2995","2746","2474","2247","2372","2512","2439","2375","2443","1923","2051","2179","2152","2073","2163","2139","1932","1753","1714","1582","1625","1789","1591","1549","1442","1587","1526","1651","1798","1685","1596","1453","1495","1531","1482","1576","1780","1509","1560","1674","1627"],"label":"\u09b8\u09c1\u09b8\u09cd\u09a5","type":"line"},{"borderWidth":2,"borderColor":"red","backgroundColor":"red","fill":false,"data":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1","0","0","1","0","1","1","1","0","0","0","0","0","0","1","0","0","2","1","3","5","3","1","6","3","4","5","7","4","10","15","9","7","10","9","10","7","4","9","5","7","3","8","5","2","5","2","5","1","3","13","7","8","14","11","11","19","14","15","16","14","21","21","16","22","24","20","28","21","21","22","15","23","28","40","22","37","37","35","30","35","42","42","45","37","37","46","44","32","38","53","43","38","45","37","39","38","43","37","39","40","34","43","45","64","41","38","42","29","55","44","55","46","41","37","30","47","39","33","33","39","51","34","37","50","41","42","50","35","38","54","37","35","35","48","28","21","22","30","50","33","39","27","32","34","39","33","42","44","34","34","32","37","46","41","41","39","46","34","42","45","54","45","47","32","42","33","35","35","32","29","35","32","37","36","41","41","34","34","31","26","43","21","36","22","32","26","40","28","37","28","21","36","32","32","26","32","21","33","20","23","27","30","35","20","17","23","24","31","22","16","15","15","23","14","21"],"label":"\u09ae\u09c3\u09a4\u09cd\u09af\u09c1","type":"line"}])
+            }
+};
+window.addEventListener("load", fdauwvyklpjtcbezhgmnoisrx_load);
+document.addEventListener("turbolinks:load", fdauwvyklpjtcbezhgmnoisrx_load);
+
+</script>
+
+<script  type="text/javascript">
+    var ctvChart = document.getElementById('dtiunwphqloyefxbgczasvjrm').getContext('2d');
+    function dtiunwphqloyefxbgczasvjrm_create(data) {
+        dtiunwphqloyefxbgczasvjrm_rendered = true;
+        document.getElementById("dtiunwphqloyefxbgczasvjrm_loader").style.display = 'none';
+        document.getElementById("dtiunwphqloyefxbgczasvjrm").style.display = 'block';
+        window.dtiunwphqloyefxbgczasvjrm = new Chart(document.getElementById("dtiunwphqloyefxbgczasvjrm").getContext("2d"), {
+            type: data[0].type,
+            data: {
+                labels: ["\u09aa\u09c1\u09b0\u09c1\u09b7","\u09ae\u09b9\u09bf\u09b2\u09be"],
+                datasets: data
+            },
+            options: {"maintainAspectRatio":false,"scales":{"xAxes":[],"yAxes":[{"ticks":{"beginAtZero":true}}]}},
+            plugins: []
+        });
+    }
+    let dtiunwphqloyefxbgczasvjrm_rendered = false;
+let dtiunwphqloyefxbgczasvjrm_load = function () {
+    if (document.getElementById("dtiunwphqloyefxbgczasvjrm") && !dtiunwphqloyefxbgczasvjrm_rendered) {
+                    dtiunwphqloyefxbgczasvjrm_create([{"borderWidth":2,"backgroundColor":["rgba(153, 102, 255, .75)","rgba(255, 99, 132, .75)"],"data":[71,29],"label":"Deaths","type":"pie"}])
+            }
+};
+window.addEventListener("load", dtiunwphqloyefxbgczasvjrm_load);
+document.addEventListener("turbolinks:load", dtiunwphqloyefxbgczasvjrm_load);
+
+</script>
+
+<script  type="text/javascript">
+    var ctvChart = document.getElementById('lvgrkmydtzpienbshfocjwuax').getContext('2d');
+    function lvgrkmydtzpienbshfocjwuax_create(data) {
+        lvgrkmydtzpienbshfocjwuax_rendered = true;
+        document.getElementById("lvgrkmydtzpienbshfocjwuax_loader").style.display = 'none';
+        document.getElementById("lvgrkmydtzpienbshfocjwuax").style.display = 'block';
+        window.lvgrkmydtzpienbshfocjwuax = new Chart(document.getElementById("lvgrkmydtzpienbshfocjwuax").getContext("2d"), {
+            type: data[0].type,
+            data: {
+                labels: ["\u09e7-\u09e7\u09e6","\u09e7\u09e7-\u09e8\u09e6","\u09e8\u09e7-\u09e9\u09e6","\u09e9\u09e7-\u09ea\u09e6","\u09ea\u09e7-\u09eb\u09e6","\u09eb\u09e7-\u09ec\u09e6","\u09ec\u09e6+"],
+                datasets: data
+            },
+            options: {"maintainAspectRatio":false,"scales":{"xAxes":[],"yAxes":[{"ticks":{"beginAtZero":true}}]}},
+            plugins: []
+        });
+    }
+    let lvgrkmydtzpienbshfocjwuax_rendered = false;
+let lvgrkmydtzpienbshfocjwuax_load = function () {
+    if (document.getElementById("lvgrkmydtzpienbshfocjwuax") && !lvgrkmydtzpienbshfocjwuax_rendered) {
+                    lvgrkmydtzpienbshfocjwuax_create([{"borderWidth":2,"borderColor":"rgba(0, 0, 0, 0)","backgroundColor":["rgba(255, 99, 132, .75)","rgba(54, 162, 235, .75)","rgba(255, 206, 86, .75)","rgba(75, 192, 192, .75)","rgba(153, 102, 255, .75)","rgba(255, 159, 64, .75)","rgba(255, 255, 0, .75)"],"data":[3,7,28,27,17,11,7],"label":"\u09ac\u09df\u09b8","type":"bar"}])
+            }
+};
+window.addEventListener("load", lvgrkmydtzpienbshfocjwuax_load);
+document.addEventListener("turbolinks:load", lvgrkmydtzpienbshfocjwuax_load);
+
+</script>
+
+<script>
+    $(function() {    
+        $('.counter').countUp({
+            'time': 500,
+            'delay': 10
+        });
+
+        $('#districts').DataTable({
+            processing: true,
+            serverSide: true,
+            responsive : 'true',
+            ajax: 'https://covid.codeofamdad.com/ajax',
+            columns: [
+                { data: 'bnname', name: 'bnname' },
+                { data: 'confirmed', name: 'confirmed', render: $.fn.dataTable.render.number(',') },
+                { data: 'recovered', name: 'recovered', render: $.fn.dataTable.render.number(',') },
+                { data: 'deaths', name: 'deaths', render: $.fn.dataTable.render.number(',') },
+                { data: 'action', name: 'action' }
+            ],
+            order: [[ 1, "desc" ]],
+            language: {
+                "sProcessing" : "প্রসেসিং হচ্ছে...",
+                "sLengthMenu" : "_MENU_ টা তথ্য",
+                "sZeroRecords" : "আপনি যা অনুসন্ধান করেছেন তার সাথে মিলে যাওয়া কোন তথ্য খুঁজে পাওয়া যায় নাই",
+                "sInfo" : "_TOTAL_ টা তথ্যের মধ্যে _START_ থেকে _END_ পর্যন্ত দেখানো হচ্ছে",
+                "sInfoEmpty" : "কোন তথ্য খুঁজে পাওয়া যায় নাই",
+                "sInfoFiltered" : "(মোট _MAX_ টা  তথ্যের মধ্যে থেকে বাছাইকৃত)",
+                "sInfoPostFix" : "",
+                "sSearch" : "অনুসন্ধান:",
+                "sUrl" : "",
+                "oPaginate" : {
+                    "sFirst" : "শুরু ",
+                    "sPrevious" : "পূর্ববর্তী",
+                    "sNext" : "পরবর্তী ",
+                    "sLast" : "শেষ "
+                }
+            },
+        });
+    });
+</script>
+
+
+
+
+ <!-- footer over start -->
+
+  <section class="bg-secondary py-md-3">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="text-light">About Mac Care</h1>
+          <hr class="w-25 bg-light float-left">
+        </div>
+        <div class="col-md-6 smpc">
+          <p class="text-justify text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="text-justify text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+      <div class="row">
+        <hr class="w-75 bg-light col-12">
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="text-light">Contact Details</h1>
+          <hr class="w-25 bg-light float-left">
+        </div>
+        <div class="col-md-6">
+          <ul class="list-group list-group-flush text-dark">
+            <li class="list-group-item bg-transparent"><i class="fas fa-map-marked-alt h3 text-light"></i> <span> Park Drive, Varick Str New York, NY 10012, USA</span></li>
+            <li class="list-group-item bg-transparent"><i class="fas fa-at h3 text-light"></i> <span> info@MacCare.com</span></li>
+            <li class="list-group-item bg-transparent"><i class="fas fa-phone h3 text-light"></i> <span> (123)-0200-12345-&-7890</span></li>
+            <li class="list-group-item bg-transparent"><i class="far fa-clock h3 text-light"></i> <span> Mon-Satday: 9am to 18pm</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <!-- footer over end -->
+
+  <!-- footer start -->
+
+  <footer class="bg-dark text-muted py-3">
+    <div class="container-fluid">
+      <div class="row">
+        <p class="text-left col-md-6 h5 py-md-3">Copyrights &copy 2020 All Rights Reserved, Powered by <a href="#"> Mac Care</a>.</p>
+        <h1 class="text-muted text-right col-md-6 px-md-5">
+          <a href="#" class="text-muted" title=""><i class="fa fa-whatsapp mx-2 whtap"></i></a>
+          <a href="#" class="text-muted" title=""><i class="fa fa-facebook mx-2 fb"></i></a>
+          <a href="#" class="text-muted" title=""><i class="fa fa-twitter mx-2 tw"></i></a>
+          <a href="#" class="text-muted" title=""><i class="fas fa-at mx-2 at"></i></a>
+          <a href="#" class="text-muted" title=""><i class="fab fa-instagram mx-2 in"></i></a>
+          <a href="#" class="text-muted" title=""><i class="fas fa-phone mx-2 phn"></i></a>
+        </h1>
+      </div>
+    </div>
+  </footer>
+
+  <!-- footer end -->
+
+
+
+
+
+  <script src="https://kit.fontawesome.com/357cf294b1.js" crossorigin="anonymous"></script>
+  <!-- bst4 script -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="js/count/jquery.counterup.min.js"></script>
+  <script>
+    $('.counter').counterUp({
+      delay: 10,
+      time: 1000
+    });
+  </script>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/scrl/jquery.scrollUp.min.js"></script>
+  <script>
+    $(function () {
+        $.scrollUp({
+            scrollName: 'scrollUp',      // Element ID
+            scrollDistance: 200,         // Distance from top/bottom before showing element (px)
+            scrollFrom: 'top',           // 'top' or 'bottom'
+            scrollSpeed: 500,            // Speed back to top (ms)
+            easingType: 'linear',        // Scroll to top easing (see http://easings.net/)
+            animation: 'fade',           // Fade, slide, none
+            animationSpeed: 400,         // Animation speed (ms)
+            scrollTrigger: false,        // Set a custom triggering element. Can be an HTML string or jQuery object
+            scrollTarget: false,         // Set a custom target element for scrolling to. Can be element or number
+            scrollText: 'to top',       // Text for element, can contain HTML
+            scrollTitle: false,          // Set a custom <a> title if required.
+            scrollImg: true,            // Set true to use image
+            activeOverlay: false,        // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+            zIndex: 2147483647           // Z-Index for the overlay
+        });
+    });
+  </script>
+  
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:5,
+        nav:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:4
+            }
+        }
+    })
+  </script>
+
+
+
+</body>
+</html>

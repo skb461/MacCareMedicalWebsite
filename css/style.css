@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+video{
+  width: 100%;
+  height: 500px;
+}
+ /* carousel css */
+.im img{
+
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+ /* Owl carousel css */
+.od{
+    background: #f9f9f9;
+    padding-bottom: 10px;
+}
+.card{
+    background: #FFFFFF;
+    
+   
+}
+.card:hover{
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.rm:hover{
+    margin-left: 10px;
+    transition: 0.5s ease;
+    text-decoration: none;
+
+}
+
+/* WE are Section css */
+.wr{
+    padding: 100px;
+    
+}
+
+/* owl carousel card image hover */
+
+.img{
+    position: relative;
+  
+
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+  }
+  .card.image{
+    padding: 10px;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 140, 186,0.5);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .img:hover .overlay {
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .img-fluid{
+    border-radius: 50%;
+  }
+  img{
+    max-width: 100%;
+  }
+
+  /* Specialist Doctors section css */
+  table{
+    width: 100%;
+    margin-bottom: 500px;
+  }
+tr td{
+    background-color: #f2f2f2;
+    border-radius: 15px; 
+    border: 5px solid #ffffff;
+    padding: 12px 15px 13px;  
+    text-align: center;
+    font-size: small; 
+  }
+  tr th{   
+    border-radius: 15px; 
+    border: 5px solid #ffffff;
+    padding: 20px;   
+  }
+  tr th{
+    padding: 50px;
+  }
+
+
